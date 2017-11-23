@@ -18,6 +18,10 @@ h3, h4 {
   padding: 80px 120px;
 }
 
+.aaron_image {
+  border-radius: 50%;
+}
+
 .person {
   border: 10px solid transparent;
   margin-bottom: 25px;
