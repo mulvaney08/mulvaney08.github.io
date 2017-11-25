@@ -264,6 +264,43 @@ textarea {
   }
 }
 
+@media(min-width:200px) {
+  .linkedin_symbol {
+    width: 30%;
+    float: left;
+    font-size: 50px;
+  }
+  .github_symbol {
+    font-size: 50px;
+    width: 30%;
+    float: left;
+  }
+  .skype_symbol {
+    font-size: 50px;
+    float: left;
+    width: 30%;
+  }
+  .gmail_symbol {
+    float: left;
+    font-size: 50px;
+  }
+  .navbar-form .form-control {
+    margin-left: 1em;
+  }
+  .linkedin_symbol1 {
+    font-size: 50px;
+  }
+  .github_symbol1 {
+    font-size: 50px;
+  }
+  .skype_symbol1 {
+    font-size: 50px;
+  }
+  .gmail_symbol1 {
+    font-size: 50px;
+  }
+}
+
 .google_map {
   width: 75%;
 }
