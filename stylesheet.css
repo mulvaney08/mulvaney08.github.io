@@ -10,11 +10,20 @@ h3, h4 {
   color: #111;
 }
 
+.carousel_buttons{
+  align-items: center;
+}
+
+.carousel .find_out_more{
+  position: absolute;
+  margin: 20em
+}
+
 .container {
   padding: 80px 120px;
 }
 
-.container .skills{
+.container .skills {
   padding: 80px 120px;
 }
 
@@ -47,11 +56,10 @@ h3, h4 {
   color: #fff !important;
 }
 
-@media (max-width: 600px) {
-  .carousel-caption {
-    display: none;
-    /* Hide the carousel text when the screen is less than 600 pixels wide */
-  }
+.jumbotron {
+  height: auto;
+  width: 95%;
+  margin-left: 2.5%;
 }
 
 .bg-1 {
@@ -185,20 +193,51 @@ textarea {
   resize: none;
 }
 
-.linkedin_symbol {
-  float: left;
-  width: 50%;
-  font-size: 50px;
+@media (min-width: 861px) {
+  .linkedin_symbol {
+    float: left;
+    width: 50%;
+    font-size: 50px;
+  }
+  .github_symbol {
+    font-size: 50px;
+  }
+  .skype_symbol {
+    font-size: 50px;
+    float: left;
+    width: 50%;
+  }
+  .gmail_symbol {
+    font-size: 50px;
+  }
 }
 
-.github_symbol{
-  font-size: 50px;
+@media(min-width:200px) {
+  .linkedin_symbol {
+    width: 30%;
+    float: left;
+    font-size: 50px;
+  }
+  .github_symbol {
+    font-size: 50px;
+    width: 30%;
+    float: left;
+  }
+  .skype_symbol {
+    font-size: 50px;
+    float: left;
+    width: 30%;
+  }
+  .gmail_symbol {
+    float: left;
+    font-size: 50px;
+  }
 }
 
-.google_map{
+.google_map {
   width: 75%;
 }
 
 .table th, .table td {
-     border-top: none !important;
- }
+  border-top: none !important;
+}

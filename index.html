@@ -35,11 +35,11 @@
           <li><a href="#education">EDUCATION</a></li>
           <li><a href="#interests">INTERESTS & HOBBIES</a></li>
           <li><a href="#about">ABOUT</a></li>
-          <li><a href="#contact">CONTACT</a></li>
+          <li><a href="#contact" style="margin-right: 75px;">CONTACT</a></li>
           <li>
             <form class="navbar-form" role="search">
               <div class="input-group">
-                <input type="text" class="form-control pull-right" style="width: 300px; margin-right: 35px, border: 1px solid black; background-color: #e5e5e5;" placeholder="Search">
+                <input type="text" class="form-control pull-right" style="width: 200px; border: 1px solid black; background-color: #e5e5e5;" placeholder="Search">
                 <span class="input-group-btn">
 									<span class="sr-only">Search</span>
                 </span>
@@ -92,15 +92,15 @@
   <div id="profile">
     <div class="container text-center">
       <h3 class="text-center">Profile</h3>
-      <img class="aaron_image" src="images/aaron2.jpg" style="align-self: center;">
+      <img class="aaron_image text-center" src="images/aaron2.jpg">
       <br>
       </br>
-      <p>An <span style="color:red">innovative</span> and professional software undergraduate with a commitment to developing a strong career in the IT industry. Having gained invaluable knowledge and experience during my work placement I feel <span style="color:red">confident</span> that I would be a valuable asset
-        to any development team. At the moment I am in my 4th year of a BSc Honours Degree in Computing at IT Tallaght and aim to complete my degree whilst sourcing a development role upon completion.</p>
+      <p>An <span style="color:red">innovative</span> and professional software undergraduate with a commitment to developing a strong career in the IT industry. Having gained invaluable knowledge and experience during my work placement I feel <span style="color:red">confident</span>        that I would be a valuable asset to any development team. At the moment I am in my 4th year of a BSc Honours Degree in Computing at IT Tallaght and aim to complete my degree whilst sourcing a development role upon completion.</p>
       <br>
       </br>
-      <p>Being <span style="color:red">passionate</span> about the latest technology, keeping up to date with the latest trends in the software industry is very important. With <span style="color:red">Agile</span> methodologies taking precidence to traditional Waterfall techniques, I am glad to have gotten the opportunity to develop in a team with agility in mind.
-        Continuous delivery is key to providing customers with the most up to date software available, this pushes developers to their limits and spurs them to deliver better and more <span style="color:red">efficient</span> products</p>
+      <p>Being <span style="color:red">passionate</span> about the latest technology, keeping up to date with the latest trends in the software industry is very important. With <span style="color:red">Agile</span> methodologies taking precidence to traditional
+        Waterfall techniques, I am glad to have gotten the opportunity to develop in a team with agility in mind. Continuous delivery is key to providing customers with the most up to date software available, this pushes developers to their limits and
+        spurs them to deliver better and more <span style="color:red">efficient</span> products</p>
     </div>
   </div>
 
@@ -114,7 +114,7 @@
           <div class="thumbnail">
             <a href="#version1modal" class="modal_images" data-toggle="modal" data-target="#version1modal"><img class="version_image" src="images/version1.jpg" alt="version1" width="300px" height="400px"/></a>
             <p><strong>IT Associate Consultant</strong></p>
-            <p><span class="badge" style="background-color: green;">Interview 12th December 2017</span></p>
+            <p><span class="badge" style="background-color: green;">Interview December 2017</span></p>
           </div>
         </div>
         <div class="col-sm-4">
@@ -582,24 +582,31 @@
           <p><span class="glyphicon glyphicon-phone"></span> Phone: +353 85 8241413</p>
           <p><span class="glyphicon glyphicon-envelope"></span> Email: aaronmulvaney@gmail.com</p>
           <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-3">
               <div id="linkedin symbol" class="linkedin_symbol">
                 <a href="https://www.linkedin.com/in/aaronmulvaney" class="btn-social-icon btn-linkedin">
           <i class="fa fa-linkedin-square" aria-hidden="true"></i>
         </a>
               </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-3">
               <div id="github symbol" class="github_symbol">
                 <a href="https://github.com/mulvaney08" class="btn-social-icon btn-github">
         <span class="fa fa-github"></span>
         </a>
               </div>
             </div>
-            <div class="col-md-4">
-              <div id="github symbol" class="github_symbol">
+            <div class="col-md-3">
+              <div id="github symbol" class="skype_symbol">
                 <a href="https://join.skype.com/invite/jtpCxUFYY2VF" class="btn-social-icon btn-skype">
         <span class="fa fa-skype"></span>
+        </a>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div id="gmail symbol" class="gmail_symbol">
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=aaronmulvaney@gmail.com&su=Resumé" class="btn-social-icon btn-google">
+        <span class="fa fa-google"></span>
         </a>
               </div>
             </div>
@@ -650,6 +657,10 @@
       $.each($('div.progress-bar'), function() {
         $(this).css('width', $(this).attr('aria-valuetransitiongoal') + '%');
       });
+    });
+
+    $('.navbar-collapse a').click(function() {
+      $(".navbar-collapse").collapse('hide');
     });
   </script>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC7GtGKPb4542J0TqnAZ4lhoUdofYB45yM&callback=myMap"></script>
