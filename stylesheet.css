@@ -10,11 +10,11 @@ h3, h4 {
   color: #111;
 }
 
-.carousel_buttons{
+.carousel_buttons {
   align-items: center;
 }
 
-.carousel .find_out_more{
+.carousel .find_out_more {
   position: absolute;
   margin: 20em
 }
@@ -130,6 +130,12 @@ h3, h4 {
   height: 400px;
 }
 
+.projects_symbol {
+  font-size: 50px;
+  width: 100%;
+  float: left;
+}
+
 .navbar {
   font-family: Montserrat, sans-serif;
   margin-bottom: 0;
@@ -209,6 +215,30 @@ textarea {
   }
   .gmail_symbol {
     font-size: 50px;
+  }
+  .linkedin_symbol1 {
+    margin-left: 1em;
+    float: left;
+    width: 50%;
+    font-size: 50px;
+  }
+  .github_symbol1 {
+    margin-left: 1em;
+    font-size: 50px;
+    float: left;
+    width: 50%;
+  }
+  .skype_symbol1 {
+    margin-left: 1em;
+    font-size: 50px;
+    float: left;
+    width: 50%;
+  }
+  .gmail_symbol1 {
+    margin-left: 1em;
+    font-size: 50px;
+    float: left;
+    width: 50%;
   }
 }
 
