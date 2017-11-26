@@ -195,6 +195,10 @@ footer a:hover {
   border-radius: 0;
 }
 
+.conatiner .cvButton a:hover {
+  color: black
+}
+
 textarea {
   resize: none;
 }
