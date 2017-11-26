@@ -199,6 +199,26 @@ textarea {
   resize: none;
 }
 
+.skillsTips {
+  color: white;
+}
+
+.skillsTips:hover {
+  color: white;
+}
+
+.cd-fixed-bg {
+  min-height: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.cd-fixed-bg.cd-bg-1 {
+  background-image: url("images/education.jpg");
+}
+
 @media (min-width: 861px) {
   .linkedin_symbol {
     float: left;
