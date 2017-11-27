@@ -1,12 +1,14 @@
-body {
-  font: 400 15px/1.8 Lato, sans-serif;
-  color: #777;
-}
-
-h3, h4 {
+h4 {
   margin: 10px 0 30px 0;
   letter-spacing: 10px;
   font-size: 20px;
+  color: #111;
+}
+
+h3 {
+  margin: 10px 0 30px 0;
+  letter-spacing: 20px;
+  font-size: 50px;
   color: #111;
 }
 
@@ -32,7 +34,7 @@ h3, h4 {
   width: : auto
 }
 
-.profile_photo{
+.profile_photo {
   padding-right: 2em
 }
 
@@ -151,20 +153,20 @@ h3, h4 {
   background-color: #29292c !important;
 }
 
-.nav-tabs>li.active>a{
-    color: black;
-    cursor: default;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-bottom-color: transparent;
+.nav-tabs>li.active>a {
+  color: black;
+  cursor: default;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-bottom-color: transparent;
 }
 
-.nav-tabs>li>a:hover{
-    color: black;
-    cursor: default;
-    background-color: #white;
-    border: 1px solid #ddd;
-    border-bottom-color: transparent;
+.nav-tabs>li>a:hover {
+  color: black;
+  cursor: default;
+  background-color: #white;
+  border: 1px solid #ddd;
+  border-bottom-color: transparent;
 }
 
 .navbar-default .navbar-toggle {
@@ -199,8 +201,12 @@ footer a:hover {
   text-decoration: none;
 }
 
-.form-control {
-  border-radius: 0;
+#comments {
+  height: 130px;
+}
+
+#experience>img {
+  border-radius: 20%
 }
 
 .conatiner .cvButton a:hover {
@@ -231,12 +237,21 @@ textarea {
   background-image: url("images/education.jpg");
 }
 
-#education .tab-content .table{
+#education .tab-content .table {
   background-color: white;
 }
 
+@media (min-width: 1200px) {
+  .container {
+    width: 75%;
+  }
+}
 
 @media (min-width: 861px) {
+  body {
+    font: 400 20px/1.8 Lato, sans-serif;
+    color: #777;
+  }
   .linkedin_symbol {
     float: left;
     width: 50%;
@@ -254,34 +269,36 @@ textarea {
     font-size: 50px;
   }
   .linkedin_symbol1 {
-    margin-left: 1em;
+    margin-left: 1.5em;
     float: left;
     width: 50%;
     font-size: 50px;
   }
   .github_symbol1 {
-    margin-left: 1em;
+    margin-left: 1.5em;
     font-size: 50px;
     float: left;
     width: 50%;
   }
   .skype_symbol1 {
-    margin-left: 1em;
+    margin-left: 1.5em;
     font-size: 50px;
     float: left;
     width: 50%;
   }
   .gmail_symbol1 {
-    margin-left: 1em;
+    margin-left: 1.5em;
     font-size: 50px;
     float: left;
     width: 50%;
   }
-
 }
 
-
-@media(min-width:200px) {
+@media(max-width:500px) {
+  body {
+    font: 400 15px/1.8 Lato, sans-serif;
+    color: #777;
+  }
   .linkedin_symbol {
     padding-left: 20px;
     width: 25%;
@@ -310,20 +327,30 @@ textarea {
     margin-left: 0.5em;
   }
   .linkedin_symbol1 {
+    padding-left: 20px;
+    float: left;
     font-size: 50px;
+    width: 25%;
   }
   .github_symbol1 {
+    padding-left: 20px;
+    float: left;
     font-size: 50px;
+    width: 25%;
   }
   .skype_symbol1 {
+    padding-left: 20px;
+    float: left;
     font-size: 50px;
+    width: 25%;
   }
   .gmail_symbol1 {
+    padding-left: 20px;
+    float: left;
     font-size: 50px;
+    width: 25%;
   }
-  .conatiner{
-
-  }
+  .conatiner {}
 }
 
 .google_map {
