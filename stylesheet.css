@@ -3,12 +3,14 @@ h4 {
   letter-spacing: 10px;
   font-size: 20px;
   color: #111;
+  font: Arial;
 }
 
 h3 {
+  font: Arial;
   margin: 10px 0 30px 0;
   letter-spacing: 20px;
-  font-size: 50px;
+  font-size: 30px;
   color: #111;
 }
 
@@ -259,15 +261,9 @@ textarea {
   background-color: white;
 }
 
-@media (min-width: 1200px) {
-  .container {
-    width: 75%;
-  }
-}
-
-@media (min-width: 861px) {
+@media (min-width: 501px) {
   body {
-    font: 400 20px/1.8 Lato, sans-serif;
+    font: 400 25px/1.8 Lato, sans-serif;
     color: #777;
   }
   .linkedin_symbol {
@@ -288,27 +284,26 @@ textarea {
   }
   .linkedin_symbol1 {
     margin-left: 1.5em;
-    float: left;
     width: 50%;
     font-size: 50px;
   }
   .github_symbol1 {
     margin-left: 1.5em;
     font-size: 50px;
-    float: left;
     width: 50%;
   }
   .skype_symbol1 {
     margin-left: 1.5em;
     font-size: 50px;
-    float: left;
     width: 50%;
   }
   .gmail_symbol1 {
     margin-left: 1.5em;
     font-size: 50px;
-    float: left;
     width: 50%;
+  }
+  .container {
+    width: 75%
   }
 }
 
@@ -368,13 +363,21 @@ textarea {
     font-size: 50px;
     width: 25%;
   }
-  .conatiner {}
+  .container {
+    width: 100%
+  }
+  #home {
+    width: 100%
+  }
 }
 
-.google_map {
-  width: 75%;
-}
-
-.table th, .table td {
-  border-top: none !important;
-}
+@media(max-width:800px) {
+  .navbar-collapse {
+    width: auto;
+  }
+  .google_map {
+    width: 75%;
+  }
+  .table th, .table td {
+    border-top: none !important;
+  }
