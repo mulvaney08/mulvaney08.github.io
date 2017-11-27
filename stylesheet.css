@@ -261,6 +261,13 @@ textarea {
   background-color: white;
 }
 
+#backtotop {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  color: blue;
+}
+
 @media (min-width: 501px) {
   body {
     font: 400 25px/1.8 Lato, sans-serif;
