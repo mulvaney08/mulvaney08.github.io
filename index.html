@@ -553,7 +553,7 @@
           <p style="color: white">Type something in the input field to search the table</p>
           <input class="form-control" id="year3input" type="text" placeholder="Search..">
           <br></br>
-           <table class="table">
+          <table class="table">
             <thead>
               <th style="color: black"><strong>Year 3 Results - GPA: 2:2</strong></th>
               <th></th>
@@ -713,98 +713,67 @@
 
   <!-- Container (Interests Section) -->
   <div id="interests" class="bg-1">
-    <div class="container text-center">
+    <div class="container">
       <br></br>
       <h3 class="text-center">Interests and Hobbies</h3>
-      <p>Click an image below to find out more</p>
-      <br></br>
-      <div class="row">
-        <div class="col-md-4">
-          <a href="#FootballModal" class="modal_images" data-toggle="modal" data-target="#FootballModal"> <img src="images/football.gif" border="0" width="300px" height="300px"/> </a>
-        </div>
-        <div class="col-md-4">
-          <a href="#coderdojoModal" class="modal_images" data-toggle="modal" data-target="#coderdojoModal"> <img src="images/coderdojo.png" border="0" width="300px" height="300px"/> </a>
-        </div>
-        <div class="col-md-4">
-          <a href="#TabletennisModal" class="modal_images" data-toggle="modal" data-target="#TabletennisModal"> <img src="images/tennis.gif" border="0" width="300px" height="300px"> </a>
-        </div>
-      </div>
+      <p class="text-center">Choose a section below to find out more</p>
 
-      <div class="modal fade" id="FootballModal" role="dialog">
-        <div class="modal-dialog">
+      <div class="panel-group" id="accordion">
+        <!--football accordion-------------------------------------------------------------------------------->
+        <div class="panel panel-default">
+          <div class="panel-heading" style="background-color: white">
+            <h4 class="panel-title" data-toggle="collapse" data-parent="#accordion" href="#collapse1" style="background-color: white">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" style="color: black">Football</a>
+      </h4>
+          </div>
+          <div id="collapse1" class="panel-collapse collapse text-center">
+            <img src="images/football.gif" border="0" width="300px" height="300px" />
+            <p style="color: black">
+              Play 5-a-side football twice a week
+            </p>
+            <p style="color: black">
+              Assistant coach at Drumfinn Celtic Football club
+            </p>
+          </div>
+        </div>
+        <!--coderdojo accordion-------------------------------------------------------------------------------->
 
-          <!-- Halfords content-->
-          <div class="modal-content">
-            <div class="modal-header">
-              <h3></span>Football</h3>
-            </div>
-            <div class="modal-body">
-              <div class="modal_body" style="color:black">
-                <p>
-                  • Play 5-a-side football twice a week
-                </p>
-                <p>
-                  • Assistant coach at Drumfinn Celtic Football club
-                </p>
-              </div>
-              <div class="modal-footer">
-                <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">Back</button>
-              </div>
-            </div>
+        <div class="panel panel-default">
+          <div class="panel-heading" style="background-color: white">
+            <h4 class="panel-title" data-toggle="collapse" data-parent="#accordion" href="#collapse2" style="background-color: white">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2" style="color: black">CoderDojo</a>
+      </h4>
+
+          </div>
+          <div id="collapse2" class="panel-collapse collapse text-center">
+            <img src="images/coderdojo.png" border="0" width="300px" height="300px" /> </a>
+            <p style="color: black">
+              Helped co-ordinate Openet stand in CoderDojo Coolest Projects 2017
+            </p>
+            <p style="color: black">
+              Mentor on Openet CoderDojo team 2017
+            </p>
+          </div>
+        </div>
+
+        <!--table tennis accordion-------------------------------------------------------------------------------->
+        <div class="panel panel-default">
+          <div class="panel-heading" style="background-color: white">
+            <h4 class="panel-title" data-toggle="collapse" data-parent="#accordion" href="#collapse3" style="background-color: white">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3" style="color: black">Table Tennis</a>
+      </h4>
+          </div>
+          <div id="collapse3" class="panel-collapse collapse text-center">
+            <img src="images/tennis.gif" border="0" width="300px" height="300px">
+            <p style="color: black">
+              Member of IT Tallaght Table Tennis Cub
+            </p>
+            <p style="color: black">
+              Public Relations Officer for IT Tallaght Table Tennis club 2014/2015
+            </p>
           </div>
         </div>
       </div>
-
-      <div class="modal fade" id="coderdojoModal" role="dialog">
-        <div class="modal-dialog">
-
-          <!-- Version 1 content-->
-          <div class="modal-content">
-            <div class="modal-header">
-              <h3></span>CoderDojo</h3>
-            </div>
-            <div class="modal-body">
-              <div class="modal_body" style="color:black">
-                <p>
-                  • Helped co-ordinate Openet stand in CoderDojo Coolest Projects 2017
-                </p>
-                <p>
-                  • Mentor on Openet CoderDojo team 2017
-                </p>
-              </div>
-              <div class="modal-footer">
-                <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">Back</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="modal fade" id="TabletennisModal" role="dialog">
-        <div class="modal-dialog">
-
-          <!-- Version 1 content-->
-          <div class="modal-content">
-            <div class="modal-header">
-              <h3></span>Table Tennis</h3>
-            </div>
-            <div class="modal-body">
-              <div class="modal_body" style="color:black">
-                <p>
-                  • Member of IT Tallaght Table Tennis Cub
-                </p>
-                <p>
-                  • Public Relations Officer for IT Tallaght Table Tennis club 2014/2015
-                </p>
-              </div>
-              <div class="modal-footer">
-                <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">Back</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
       <br></br>
     </div>
   </div>
@@ -875,7 +844,7 @@
             </tr>
             <tr>
               <td>Filters are used to specify what one is looking for in the <a href="#education">education</a> section for each year</td>
-              <td></td>
+              <td>Accordion is used for the <a href="#interests">interests and hobbies</a> section</td>
             </tr>
           </tbody>
         </table>
@@ -928,41 +897,26 @@
             </div>
           </div>
         </div>
-        <div class="col-md-8">
-          <div class="row">
-            <div class="col-sm-6 form-group">
-              <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        <form id="elem" autocomplete="on"  onSubmit="alert('Message Sent!');">
+          <div class="col-md-8">
+            <div class="row">
+              <div class="col-sm-6 form-group">
+                <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+              </div>
+              <div class="col-sm-6 form-group">
+                <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+              </div>
             </div>
-            <div class="col-sm-6 form-group">
-              <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
-            </div>
-          </div>
-          <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
-          <br>
-          <div class="row">
-            <div class="col-md-12 form-group">
-              <button class="btn pull-right btn-primary" type="submit" href="#sendmessagemodal" class="modal_images" data-toggle="modal" data-target="#sendmessagemodal">Send</button>
-            </div>
-          </div>
-        </div>
-        <div class="modal fade" id="sendmessagemodal" role="dialog">
-          <div class="modal-dialog">
-
-            <!-- Halfords content-->
-            <div class="modal-content">
-              <div class="modal-body">
-                <div class="modal_body">
-                  <p>
-                    Message sent!
-                  </p>
-                </div>
-                <div class="modal-footer">
-                  <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">Back</button>
-                </div>
+            <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
+            <br>
+            <div class="row">
+              <div class="col-md-12 form-group">
+                <p id="clockbox"></p>
+                <button class="btn pull-right btn-primary" type="submit">Send</button>
               </div>
             </div>
           </div>
-        </div>
+        </form>
       </div>
       <br>
       </br>
@@ -1024,18 +978,63 @@
         $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)   
       }); 
     });
+
+    function validate(form) {
+
+      // validation code here ...
+
+
+      if (!valid) {
+        alert('Please correct the errors in the form!');
+        return false;
+      } else {
+        return confirm('Do you really want to submit the form?');
+      }
+    }
   </script>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC7GtGKPb4542J0TqnAZ4lhoUdofYB45yM&callback=myMap"></script>
-
   <!-- Footer -->
   <footer class="text-center">
     <a id="backtotop" class="up-arrow text-center" href="#home" data-toggle="tooltip" title="TO TOP">
     <span class="glyphicon glyphicon-chevron-up"></span>
-  </a><br><br>
+  </a>
+    <br></br>
   </footer>
 
   <script>
     $(document).ready(function() {
+      var tday = new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday");
+      var tmonth = new Array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December");
+
+      function GetClock() {
+        var d = new Date();
+        var nday = d.getDay(),
+          nmonth = d.getMonth(),
+          ndate = d.getDate();
+        var nhour = d.getHours(),
+          nmin = d.getMinutes(),
+          ap;
+        if (nhour == 0) {
+          ap = " AM";
+          nhour = 12;
+        } else if (nhour < 12) {
+          ap = " AM";
+        } else if (nhour == 12) {
+          ap = " PM";
+        } else if (nhour > 12) {
+          ap = " PM";
+          nhour -= 12;
+        }
+
+        if (nmin <= 9) nmin = "0" + nmin;
+
+        document.getElementById('clockbox').innerHTML = "" + tday[nday] + ", " + tmonth[nmonth] + " " + ndate + ", " + nhour + ":" + nmin + ap + "";
+      }
+
+      window.onload = function() {
+        GetClock();
+        setInterval(GetClock, 1000);
+      }
 
       // Initialize Tooltip
       $('[data-toggle="tooltip"]').tooltip();

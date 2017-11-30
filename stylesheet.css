@@ -40,6 +40,12 @@ h3 {
   padding-right: 2em
 }
 
+.panel-default>.panel-heading {
+  color: #333;
+  background-color: #f5f5f5;
+  border-color: #f5f5f5;
+}
+
 .carousel-inner img {
   -webkit-filter: grayscale(50%);
   filter: grayscale(50%);
@@ -268,6 +274,10 @@ textarea {
   color: blue;
 }
 
+#clockbox {
+float: left;
+}
+
 @media (min-width: 501px) {
   body {
     font: 400 25px/1.8 Lato, sans-serif;
@@ -311,6 +321,11 @@ textarea {
   }
   .container {
     width: 75%
+  }
+  .panel-group {
+    margin-bottom: 20px;
+    width: auto;
+
   }
 }
 
